@@ -26,10 +26,10 @@ This filebeat configuration file is for:
 
 pipeline_nginx.conf
 This logstach pipeline
-- Récupère les logs au format Common Log Format de Nginx
-- Parse les logs dans un format structuré 
-- Extrait la date des logs
-- Indexe les logs dans Elasticsearch dans un index quotidien dédié à Nginx
+- Catch logs in Common Log Format of Nginx
+- Parse logs in a structured format
+- Extract date from logs
+- Index logs from Elasticsearch in a dedicated Nginx index
 
 index_kibana.json: Allow Kibana to index all the correponding index to nginx-logs-*
 
@@ -40,3 +40,7 @@ filter_kibanajson: show logs of the namespace default in kibana
 > [!NOTE]
 > - Clone the git repository from github : https://github.com/caiimy/m2i-tp5.git
 > - A kubernetes cluster deployed and ready to receive deployments
+
+# Remarque:
+Ce README decrit la theorie derriere ce que j'ai fais dans ce TP, malheureusemlent j'ai pu tester que les deploiements mais pas tous le projet. 
+Je fais quand meme le rendu mais je mettrais a jour le repo quand tous sera testé.
