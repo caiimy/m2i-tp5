@@ -35,7 +35,9 @@ index_kibana.json: Allow Kibana to index all the correponding index to nginx-log
 
 filter_kibanajson: show logs of the namespace default in kibana
 
+
 ## Pre-requisite
-- Clone the git repository from github : https://github.com/caiimy/m2i-tp5.git
-- A kubernetes cluster in production
+> [!NOTE]
+> - Clone the git repository from github : https://github.com/caiimy/m2i-tp5.git
+> - A kubernetes cluster in production
 
